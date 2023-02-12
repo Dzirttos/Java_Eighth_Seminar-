@@ -12,7 +12,7 @@ public class HW_Task_2 {
                     break;
                 }
             }
-            if (b == true) System.out.print(i + " ");
+            if (b == true) System.out.printf("\u001B[35m" + i + " ");
             else b = true;
         }
     }
